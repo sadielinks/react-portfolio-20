@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# React Professional Portfolio (Bootcamp Assignment 20)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+By: Sadie Sial
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+![mit](https://img.shields.io/badge/license-MIT-lightblue)
 
-### `npm start`
+#### Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Description](#description)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+- [Previous](#previous)
+- [Links](#links)
+- [Contact](#contact)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
 
-### `npm test`
+This application allows for a professional portfolio to launch, and then guide the viewer through the potential employee's previous work samples and contact information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### User Story
 
-### `npm run build`
+```
+AS AN employer
+YOU WILL view a potential employee's deployed portfolio of work samples
+SO THAT you can review samples of their work and assess whether they're a good candidate for an open position
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+Desktop Display
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![screenshot](./assets/images/desktop-v3.png)
 
-### `npm run eject`
+```
+Mobile Display
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![screenshot](./assets/images/mobile-v3.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- HTML
+- CSS
+- Javascript <br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Previous
 
-## Learn More
+```
+v-2.0 Desktop Display
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![screenshot](./assets/images/desktop-v2.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+v-1.0 Desktop Display
+```
 
-### Code Splitting
+![screenshot](./assets/images/desktop-v1.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+v-2.0 Mobile Display
+```
 
-### Analyzing the Bundle Size
+![screenshot](./assets/images/mobile-v2.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Links
 
-### Making a Progressive Web App
+- [Deployed App](https://sadielinks.github.io/professional-portfolio/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [GitHub Repository](https://github.com/sadielinks/professional-portfolio) <br>
 
-### Advanced Configuration
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- [GitHub Profile](https://github.com/sadielinks)
+- [Email](mailto:sadiecodes@gmail.com)
 
-### Deployment
+My name is Sadie Sial and I am taking this Full-Stack Coding Bootcamp through my current employer. <br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## License
 
-### `npm run build` fails to minify
+This source code is available to everyone under the standard [MIT License ©](https://github.com/microsoft/vscode/blob/master/LICENSE.txt). <br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
