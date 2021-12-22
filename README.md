@@ -34,13 +34,13 @@ SO THAT I can assess whether they're a good candidate for an open position
 Desktop Display
 ```
 
-![screenshot](./assets/images/desktop-v3.png)
+![screenshot](./assets/images/.png)
 
 ```
 Mobile Display
 ```
 
-![screenshot](./assets/images/mobile-v3.png)
+![screenshot](./assets/images/.png)
 
 ## Technologies
 
