@@ -23,9 +23,9 @@ This application allows for a professional portfolio to launch, and then guide t
 ### User Story
 
 ```
-AS AN employer
-YOU WILL view a potential employee's deployed portfolio of work samples
-SO THAT you can review samples of their work and assess whether they're a good candidate for an open position
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
 ```
 
 ## Screenshots
