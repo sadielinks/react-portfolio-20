@@ -48,31 +48,11 @@ Mobile Display
 - CSS
 - Javascript <br>
 
-## Previous
-
-```
-v-2.0 Desktop Display
-```
-
-![screenshot](./assets/images/desktop-v2.png)
-
-```
-v-1.0 Desktop Display
-```
-
-![screenshot](./assets/images/desktop-v1.png)
-
-```
-v-2.0 Mobile Display
-```
-
-![screenshot](./assets/images/mobile-v2.png)
-
 ## Links
 
-- [Deployed App](https://sadielinks.github.io/professional-portfolio/)
+- [Deployed App](https://sadielinks.github.io/react-portfolio-20/)
 
-- [GitHub Repository](https://github.com/sadielinks/professional-portfolio) <br>
+- [GitHub Repository](https://github.com/sadielinks/react-portfolio-20) <br>
 
 ## Contact
 
