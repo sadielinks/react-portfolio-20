@@ -1,16 +1,3 @@
-import React from "react";
-
-// https://v5.reactrouter.com/web/guides/quick-start
-import { Link } from "react-router-dom";
-
-// bootstrap - per docs, best to import individual components rather than whole library https://v5.reactrouter.com/web/guides/quick-start
-import { Container } from "react-bootstrap";
-
-const Header = () => {
-    // return (
-
-        
-
     //     // <nav>
     //     //     <h1 class="animate__animated animate__bounceInLeft">Hi, I'm Sadie Sial</h1>
     //     //     <ul class="navigation">
@@ -29,7 +16,20 @@ const Header = () => {
     //     //         <ion-icon class="bars" name="menu-outline"></ion-icon>
     //     //     </button>
     //     // </nav>
-    // )
+
+import React from "react";
+
+// https://v5.reactrouter.com/web/guides/quick-start
+import { Link } from "react-router-dom";
+
+// bootstrap - per docs, best to import individual components rather than whole library https://v5.reactrouter.com/web/guides/quick-start
+import { Container } from "react-bootstrap";
+
+const Header = () => {
+    return (
+        <div>
+            <p>hi this is a test</p></div>
+    )
 }
 
 export default Header;
