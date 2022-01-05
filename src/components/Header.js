@@ -17,22 +17,34 @@
 //     //     </button>
 //     // </nav>
 
-import React from "react";
+// import React from "react";
 
-// https://v5.reactrouter.com/web/guides/quick-start
-import { Link } from "react-router-dom";
+// // https://v5.reactrouter.com/web/guides/quick-start
+// import { Link } from "react-router-dom";
 
-// bootstrap - per docs, best to import individual components rather than whole library https://v5.reactrouter.com/web/guides/quick-start
-import { Container } from "react-bootstrap";
+// // bootstrap - per docs, best to import individual components rather than whole library https://v5.reactrouter.com/web/guides/quick-start
+// import { Container } from "react-bootstrap";
 
-const Header = () => {
+// const // Header = () => {
+//     return (
+//         <header className="navbar navbar-expand-sm">
+//             <div className="container">
+//                 <Link className="navbar-brand" to="/" id="logo">Hi, I'm Sadie Sial</Link>
+//             </div>
+//         </header>
+//     )
+// }
+
+// export default Header;
+
+import React from 'react'
+
+function Header() {
     return (
-        <header className="navbar navbar-expand-sm">
-            <div className="container">
-                <Link className="navbar-brand" to="/" id="logo">Hi, I'm Sadie Sial</Link>
-            </div>
-        </header>
+        <div>
+            
+        </div>
     )
 }
 
-export default Header;
+export default Header
