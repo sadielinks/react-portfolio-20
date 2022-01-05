@@ -14,6 +14,7 @@ import Contact from './sections/contact'
 
 function App() {
   return (
+    <>
     <Router>
       <div>
         <Header />
@@ -24,6 +25,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+  </>
   );
 }
 
