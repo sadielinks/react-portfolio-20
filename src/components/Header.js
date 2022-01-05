@@ -41,9 +41,11 @@ import React from 'react'
 
 function Header() {
     return (
-        <div>
-            
-        </div>
+        <header>
+            <div className="container">
+                <h2>Hi, my name is Sadie Sial</h2>
+            </div>
+        </header>
     )
 }
 
