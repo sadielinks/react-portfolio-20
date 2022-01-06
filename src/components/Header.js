@@ -39,7 +39,7 @@
 
 import React from 'react'
 
-function Header() {
+function Header({ text, bgColor, textColor }) {
     const headerStyles = {
         backgroundColor: bgColor,
         color: textColor
