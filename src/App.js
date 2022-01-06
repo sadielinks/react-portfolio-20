@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import React from "react";
 // https://v5.reactrouter.com/web/guides/quick-start
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -15,16 +16,16 @@ import Contact from './sections/contact'
 function App() {
   return (
     <>
-        <Header />
-        <div>
-          
-        </div>
-        <Route exact path="/" component={About} />
-        <Route exact path="/skills" component={Skills} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
-        <Footer />
-  </>
+      <Header />
+      <div>
+
+      </div>
+      <Route exact path="/" component={About} />
+      <Route exact path="/skills" component={Skills} />
+      <Route exact path="/portfolio" component={Portfolio} />
+      <Route exact path="/contact" component={Contact} />
+      <Footer />
+    </>
   );
 }
 

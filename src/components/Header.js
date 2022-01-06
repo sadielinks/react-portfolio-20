@@ -46,9 +46,9 @@ function Header() {
     }
 
     return (
-        <header>
+        <header style={headerStyles}>
             <div className="container">
-                <h2>Hi, my name is Sadie Sial</h2>
+                <h2>{text}</h2>
             </div>
         </header>
     )
