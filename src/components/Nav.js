@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Nav({ text, bgColor, textColor }) {
     const navStyles = {
         backgroundColor: bgColor,
@@ -7,7 +9,7 @@ function Nav({ text, bgColor, textColor }) {
 
     return (
         <nav style={navStyles}>
-            <div className="container">
+            <div className="navigation" id="navigation">
                 <h2>{text}</h2>
             </div>
         </nav>
@@ -15,7 +17,7 @@ function Nav({ text, bgColor, textColor }) {
 }
 
 Nav.defaultProps = {
-    text: "Hi, I'm Sadie Sial",
+    text: "nav bar",
     bgColor: 'rgb(238, 233, 245)',
     textColor: '#795eb0'
 
