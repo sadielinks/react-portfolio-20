@@ -13,18 +13,26 @@ import Skills from './sections/skills'
 import Portfolio from './sections/portfolio'
 import Contact from './sections/contact'
 
+
+
+{/* <>
+<Header />
+<div>
+
+</div>
+<Route exact path="/" component={About} />
+<Route exact path="/skills" component={Skills} />
+<Route exact path="/portfolio" component={Portfolio} />
+<Route exact path="/contact" component={Contact} />
+<Footer />
+</> */}
+
 function App() {
   return (
     <>
       <Header />
-      <div>
-
+      <div className='container'>
       </div>
-      <Route exact path="/" component={About} />
-      <Route exact path="/skills" component={Skills} />
-      <Route exact path="/portfolio" component={Portfolio} />
-      <Route exact path="/contact" component={Contact} />
-      <Footer />
     </>
   );
 }
