@@ -1,7 +1,8 @@
 function Header({ text, bgColor, textColor }) {
     const headerStyles = {
         backgroundColor: bgColor,
-        color: textColor
+        color: textColor,
+        textAlign: 'center'
     }
 
     return (
@@ -15,7 +16,7 @@ function Header({ text, bgColor, textColor }) {
 
 Header.defaultProps = {
     text: "Hi, I'm Sadie Sial",
-    bgColor: 'rgba(0,0,0,0.4)',
+    bgColor: 'thistle',
     textColor: '#ff6a95'
 
 }
