@@ -21,7 +21,7 @@ function Footer({ text, bgColor, textColor }) {
                 <a href="https://github.com/sadielinks" target="_blank"><img src="https://img.icons8.com/ios-glyphs/55/000000/github.png" alt="GitHub" class="icon" /></a>
             </div>
             {/* tagline */}
-            <h5> {text}
+            <h5> Made with ✨  &nbsp; in Chicago by Sadie Sial
             </h5>
 
         </footer>
@@ -29,7 +29,7 @@ function Footer({ text, bgColor, textColor }) {
 }
 
 Footer.defaultProps = {
-    text: "Made with ✨  in Chicago by Sadie Sial",
+    // text: "Made with ✨ &nbsp; in Chicago by Sadie Sial",
     bgColor: 'rgb(238, 233, 245)',
     textColor: '#795eb0'
 }
