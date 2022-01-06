@@ -40,6 +40,11 @@
 import React from 'react'
 
 function Header() {
+    const headerStyles = {
+        backgroundColor: bgColor,
+        color: textColor
+    }
+
     return (
         <header>
             <div className="container">
@@ -47,6 +52,13 @@ function Header() {
             </div>
         </header>
     )
+}
+
+Header.defaultProps = {
+    text: "Hi, I'm Sadie Sial",
+    bgColor: 'rgba(0,0,0,0.4)',
+    textColor: '#ff6a95'
+
 }
 
 export default Header
