@@ -15,16 +15,15 @@ import Contact from './sections/contact'
 function App() {
   return (
     <>
-    <Router>
-      <div>
         <Header />
+        <div>
+          
+        </div>
         <Route exact path="/" component={About} />
         <Route exact path="/skills" component={Skills} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
         <Footer />
-      </div>
-    </Router>
   </>
   );
 }
