@@ -16,8 +16,8 @@ function Header({ text, bgColor, textColor }) {
 
 Header.defaultProps = {
     text: "Hi, I'm Sadie Sial",
-    bgColor: 'thistle',
-    textColor: '#ff6a95'
+    bgColor: 'rgb(238, 233, 245)',
+    textColor: '#795eb0'
 
 }
 
