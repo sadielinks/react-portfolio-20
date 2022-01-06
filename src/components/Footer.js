@@ -6,7 +6,8 @@ function Footer({ text, bgColor, textColor }) {
     }
 
     return (
-        <div className="footer" id="footer">
+        <footer style={footerStyles} className="footer" id="footer">
+
             <div id="footer-icons">
                 {/* Phone */}
                 <a href="tel:(920)-368-6336" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/apple-phone.png" /></a>
@@ -19,20 +20,18 @@ function Footer({ text, bgColor, textColor }) {
                 {/* GitHub */}
                 <a href="https://github.com/sadielinks" target="_blank"><img src="https://img.icons8.com/ios-glyphs/55/000000/github.png" alt="GitHub" class="icon" /></a>
             </div>
-            <h5> Made with ✨&nbsp;in Chicago by Sadie Sial
+            {/* tagline */}
+            <h5> {text}
             </h5>
 
-
-
-        </div>
+        </footer>
     )
 }
 
 Footer.defaultProps = {
-    text: "Hi, I'm Sadie Sial",
-    bgColor: 'thistle',
-    textColor: '#ff6a95'
-
+    text: "Made with ✨  in Chicago by Sadie Sial",
+    bgColor: 'rgb(238, 233, 245)',
+    textColor: '#795eb0'
 }
 
 export default Footer
