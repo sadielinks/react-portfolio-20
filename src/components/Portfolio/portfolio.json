@@ -1,0 +1,23 @@
+[
+    {
+    "id": 1,
+    "name": "SWEPT",
+    "image": ".png",
+    "github": "https://github.com/elliottdombrowski/NU-Project-1",
+    "deploy": "https://elliottdombrowski.github.io/NU-Project-1/"
+    },
+    {
+    "id": 2,
+    "name": "V.I.E.W.S",
+    "image": ".png",
+    "github": "https://github.com/jcapadocia3/v.i.e.w.s.",
+    "deploy": "peaked-project.herokuapp.com/"
+    },
+    {
+    "id": 3,
+    "name": "Note-Taker-Express",
+    "image": ".png",
+    "github": "https://github.com/sadielinks/note-taker-express",
+    "deploy": "https://your-note-taker-here.herokuapp.com/"
+    }
+]

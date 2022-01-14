@@ -11,10 +11,10 @@ import Footer from './components/Footer';
 import Nav from './components/Navigation';
 
 // component sub-sections
-// import About from './components/about'
+import About from './components/about'
 // import Skills from './components/skills'
-// import Portfolio from './components/portfolio'
-// import Contact from './components/contact'
+import Portfolio from './components/Portfolio/Portfolio'
+import Contact from './components/contact'
 
 
 
