@@ -3,9 +3,9 @@ import { Route, Redirect, HashRouter } from "react-router-dom";
 import Navigation from '../components/Navigation';
 import About from '../components/About';
 import Skills from '../components/Skills';
-import Portfolio from 'src/components/Portfolio/Portfolio.js';
+import Portfolio from './Portfolio';
 import Contact from '../components/Contact';
-import Resume from '../components/Resume';
+// import Resume from '../components/Resume';
 
 // Tip from tutor:
 import { motion } from "framer-motion"

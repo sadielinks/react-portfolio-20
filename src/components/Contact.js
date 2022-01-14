@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
-import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 import { motion } from 'framer-motion'
 
 function Contact() {
