@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import { validateEmail } from '../../utils/helpers';
 import { motion } from 'framer-motion'
 
-function ContactForm() {
+function Contact() {
     const form = useRef();
     const [result, setResult] = useState(false);
 
@@ -87,4 +87,4 @@ function ContactForm() {
     );
 }
 
-export default ContactForm;
+export default Contact;

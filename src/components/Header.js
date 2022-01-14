@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Route, Redirect, HashRouter } from "react-router-dom";
-import Navigation from '../../components/Navigation';
-// import About from '../../components/About';
-// import Skills from '../../components/Skills';
-// import Portfolio from '../../components/Portfolio';
-// import Contact from '../../components/Contact';
-// import Resume from '../../components/Resume';
+import Navigation from '../components/Navigation';
+import About from '../components/About';
+import Skills from '../components/Skills';
+import Portfolio from '../components/Portfolio';
+import Contact from '../components/Contact';
+import Resume from '../components/Resume';
 
 // Tip from tutor:
-import { AnimateSharedLayout } from "framer-motion"
+import { motion } from "framer-motion"
 
 class Header extends Component {
     render() {
