@@ -8,13 +8,13 @@ import bootstrap from "react-bootstrap";
 // components
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Nav from './components/Nav';
+import Nav from './components/Navigation';
 
 // sections
-import About from './sections/about'
-import Skills from './sections/skills'
-import Portfolio from './sections/portfolio'
-import Contact from './sections/contact'
+// import About from './sections/about'
+// import Skills from './sections/skills'
+// import Portfolio from './sections/portfolio'
+// import Contact from './sections/contact'
 
 
 
