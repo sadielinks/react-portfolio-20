@@ -17,7 +17,7 @@ By: Sadie Sial
 - [License](#license)
 
 ## Description
-
+ 
 This application allows for a professional portfolio to launch, and then guide the viewer through the potential employee's previous work samples and contact information.
 
 ### User Story
