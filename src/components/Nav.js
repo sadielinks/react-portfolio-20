@@ -1,26 +1,18 @@
+import React from "react";
 import { NavLink } from "react-router-dom";
 
-function Nav({ text, bgColor, textColor }) {
-    const navStyles = {
-        backgroundColor: bgColor,
-        color: textColor,
-        textAlign: 'center'
-    }
-
+const Navigation = () => {
     return (
-        <nav style={navStyles}>
-            <div className="navigation" id="navigation">
-                <h2>{text}</h2>
-            </div>
-        </nav>
-    )
+        <div className="navigation" id="navigation">
+            <h5>
+                <NavLink activeStyle={{ color: '#72a78a' }} to="/about">About</NavLink>
+                <NavLink activeStyle={{ color: '#72a78a' }} to="/skills">Skills</NavLink>
+                <NavLink activeStyle={{ color: '#72a78a' }} to="/portfolio">Portfolio</NavLink>
+                <NavLink activeStyle={{ color: '#72a78a' }} to="/contact">Contact </NavLink>
+                <NavLink activeStyle={{ color: '#72a78a' }} to="/resume">Resume</NavLink>
+            </h5>
+        </div>
+    );
 }
 
-Nav.defaultProps = {
-    text: "nav bar",
-    bgColor: 'rgb(238, 233, 245)',
-    textColor: '#795eb0'
-
-}
-
-export default Nav
+export default Navigation;
