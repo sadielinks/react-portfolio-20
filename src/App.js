@@ -5,16 +5,16 @@ import React from "react";
 import { Route, Redirect, HashRouter } from "react-router-dom";
 import bootstrap from "react-bootstrap";
 
-// components
+// components main
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Nav from './components/Navigation';
 
-// sections
-// import About from './sections/about'
-// import Skills from './sections/skills'
-// import Portfolio from './sections/portfolio'
-// import Contact from './sections/contact'
+// component sub-sections
+// import About from './components/about'
+// import Skills from './components/skills'
+// import Portfolio from './components/portfolio'
+// import Contact from './components/contact'
 
 
 
