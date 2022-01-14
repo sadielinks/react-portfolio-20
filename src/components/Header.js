@@ -9,6 +9,13 @@ import Resume from '../components/Resume';
 
 // Tip from tutor:
 import { motion } from "framer-motion"
+const svgVariants = {
+    hidden: { rotate: -180 },
+    visible: {
+        rotate: 0,
+        transition: { duration: 1 }
+    },
+}
 
 class Header extends Component {
     render() {
@@ -39,7 +46,7 @@ class Header extends Component {
                     <Route path="/skills" component={Skills} />
                     <Route path="/portfolio" component={Portfolio} />
                     <Route path="/contact" component={Contact} />
-                    <Route path="/resume" component={Resume} />
+                    {/* <Route path="/resume" component={Resume} /> */}
                 </div>
             </HashRouter>
         )
