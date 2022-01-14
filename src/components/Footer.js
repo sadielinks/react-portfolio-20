@@ -1,3 +1,4 @@
+import React from 'react';
 function Footer({ text, bgColor, textColor }) {
     const footerStyles = {
         backgroundColor: bgColor,
